@@ -7,10 +7,8 @@
 - ตรวจสอบให้แน่ใจว่า Composer ได้รับการติดตั้งและสามารถใช้งานได้
 
 ## 2. การใช้งาน `composer.json`
-โปรเจกต์ PHP สามารถกำหนด dependencies ได้โดยใช้ไฟล์ `composer.json` ซึ่งช่วยให้สามารถจัดการไลบรารีต่างๆ
-
-- สร้างไฟล์ `composer.json` และกำหนดค่าต่างๆ ตามความต้องการของโปรเจกต์
-- ใช้ Composer ในการดาวน์โหลดและติดตั้ง dependencies ตามที่ระบุในไฟล์ `composer.json`
+รันคำสั่งใน terminal หรือ cmd (ให้ cd เข้าไปที่โฟล์เดอร์โปรเจคก่อน)
+`composer install`
 
 ## 3. การรันเว็บและไฟล์ `index.php`
 พิมพ์ url ในเว็บบราวเซอร์ http://localhost/invoice_project
